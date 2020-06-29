@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f198d24-b3a9-4798-9bc6-4c3d0c1da853" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Website_emanuel_michelle" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dtiDD0udYrjBuIpVy6MrGKQXBw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/photo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Illustrationen" />
+      <recent name="$PROJECT_DIR$/photo" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/photo" />
+      <recent name="$PROJECT_DIR$/about" />
+      <recent name="$PROJECT_DIR$/webpro" />
+      <recent name="$PROJECT_DIR$/video" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f198d24-b3a9-4798-9bc6-4c3d0c1da853" name="Default Changelist" comment="" />
+      <created>1593250667710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593250667710</updated>
+      <workItem from="1593250670234" duration="20408000" />
+      <workItem from="1593331143929" duration="9006000" />
+      <workItem from="1593340655161" duration="5476000" />
+      <workItem from="1593353159666" duration="5583000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593343888493">
+      <screen x="0" y="23" width="3840" height="1521" />
+    </state>
+    <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3840.1521/3840.573.1680.1027@0.23.3840.1521" timestamp="1593343888493" />
+    <state x="1229" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593267972475">
+      <screen x="0" y="23" width="3840" height="1521" />
+    </state>
+    <state x="1229" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.3840.1521/3840.573.1680.1027@0.23.3840.1521" timestamp="1593267972475" />
+    <state x="1888" y="143" width="1433" height="958" key="dock-window-1" timestamp="1593333696833">
+      <screen x="0" y="23" width="3840" height="1521" />
+    </state>
+    <state x="1888" y="143" width="1433" height="958" key="dock-window-1/0.23.3840.1521/3840.573.1680.1027@0.23.3840.1521" timestamp="1593333696833" />
+    <state x="1969" y="23" width="1433" height="958" key="dock-window-2" timestamp="1593333696833">
+      <screen x="0" y="23" width="3840" height="1521" />
+    </state>
+    <state x="1969" y="23" width="1433" height="958" key="dock-window-2/0.23.3840.1521/3840.573.1680.1027@0.23.3840.1521" timestamp="1593333696833" />
+    <state x="652" y="145" width="670" height="676" key="search.everywhere.popup" timestamp="1593269295089">
+      <screen x="0" y="23" width="3840" height="1521" />
+    </state>
+    <state x="652" y="145" width="670" height="676" key="search.everywhere.popup/0.23.3840.1521/3840.573.1680.1027@0.23.3840.1521" timestamp="1593269295089" />
+    <state x="717" y="448" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593254513246">
+      <screen x="0" y="23" width="3840" height="1577" />
+    </state>
+    <state x="717" y="448" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.3840.1577/3840.573.1680.1027@0.23.3840.1577" timestamp="1593254513246" />
+  </component>
+</project>

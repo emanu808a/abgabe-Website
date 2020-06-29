@@ -1,0 +1,25 @@
+.profil{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 300px;
+}
+.pb{
+    width: 200px;
+    height: auto;
+}
+.progress{
+    width: 500px;
+}
+.progressbars{
+    margin: 0px 0px 0px 20px;
+}
+.text{
+    width: 720px;
+    margin: 0px 0px 0px 300px;
+    text-align: left;
+}
+
+
+
+
+

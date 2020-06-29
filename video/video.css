@@ -1,0 +1,21 @@
+#player{
+    width: 800px;
+    height: auto;
+
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.nav-vid{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    margin: 5px 5px 0px 5px;
+    padding: 5px 15px 5px 15px;
+    border: solid cornflowerblue;
+}
