@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f198d24-b3a9-4798-9bc6-4c3d0c1da853" name="Default Changelist" comment="" />
+    <list default="true" id="2f198d24-b3a9-4798-9bc6-4c3d0c1da853" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/photo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo/photo1.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,15 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dtiDD0udYrjBuIpVy6MrGKQXBw" />
   <component name="ProjectViewState">
@@ -68,13 +81,22 @@
       <workItem from="1593331143929" duration="9006000" />
       <workItem from="1593340655161" duration="5476000" />
       <workItem from="1593353159666" duration="5583000" />
+      <workItem from="1593453316793" duration="1320000" />
+      <workItem from="1593457333292" duration="2755000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="696" y="279" key="#Deployment" timestamp="1593457198389">
+      <screen x="0" y="23" width="3840" height="1577" />
+    </state>
+    <state x="696" y="279" key="#Deployment/0.23.3840.1577/1202.1623.1680.971@0.23.3840.1577" timestamp="1593457198389" />
     <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593343888493">
       <screen x="0" y="23" width="3840" height="1521" />
     </state>
@@ -83,6 +105,26 @@
       <screen x="0" y="23" width="3840" height="1521" />
     </state>
     <state x="1229" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.3840.1521/3840.573.1680.1027@0.23.3840.1521" timestamp="1593267972475" />
+    <state x="644" y="129" key="CommitChangelistDialog2" timestamp="1593457208901">
+      <screen x="0" y="23" width="3840" height="1577" />
+    </state>
+    <state x="644" y="129" key="CommitChangelistDialog2/0.23.3840.1577/1202.1623.1680.971@0.23.3840.1577" timestamp="1593457208901" />
+    <state x="691" y="350" key="Vcs.Push.Dialog.v2" timestamp="1593456795318">
+      <screen x="0" y="23" width="3840" height="1577" />
+    </state>
+    <state x="691" y="350" key="Vcs.Push.Dialog.v2/0.23.3840.1577/1202.1623.1680.971@0.23.3840.1577" timestamp="1593456795318" />
+    <state x="100" y="123" width="1983" height="982" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593457150417">
+      <screen x="0" y="23" width="3840" height="1577" />
+    </state>
+    <state x="100" y="123" width="1983" height="982" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.3840.1577/1202.1623.1680.971@0.23.3840.1577" timestamp="1593457150417" />
+    <state x="100" y="123" width="1983" height="982" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593456509371">
+      <screen x="0" y="23" width="3840" height="1577" />
+    </state>
+    <state x="100" y="123" width="1983" height="982" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.3840.1577/1202.1623.1680.971@0.23.3840.1577" timestamp="1593456509371" />
+    <state x="879" y="533" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593456568435">
+      <screen x="0" y="23" width="3840" height="1577" />
+    </state>
+    <state x="879" y="533" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.3840.1577/1202.1623.1680.971@0.23.3840.1577" timestamp="1593456568435" />
     <state x="1888" y="143" width="1433" height="958" key="dock-window-1" timestamp="1593333696833">
       <screen x="0" y="23" width="3840" height="1521" />
     </state>
