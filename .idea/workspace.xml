@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f198d24-b3a9-4798-9bc6-4c3d0c1da853" name="Default Changelist" comment="" />
+    <list default="true" id="2f198d24-b3a9-4798-9bc6-4c3d0c1da853" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/photo/photo3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo/photo3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/video2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/video2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/about/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/media/About me.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illustrationen/illus.css" beforeDir="false" afterPath="$PROJECT_DIR$/illustrationen/illus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illustrationen/illus.html" beforeDir="false" afterPath="$PROJECT_DIR$/illustrationen/illus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/master.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/photo1.css" beforeDir="false" afterPath="$PROJECT_DIR$/photo/photo1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/photo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo/photo1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/photo2.css" beforeDir="false" afterPath="$PROJECT_DIR$/photo/photo2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/photo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo/photo2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/video.css" beforeDir="false" afterPath="$PROJECT_DIR$/video/video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/video/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpro/webpro.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpro/webpro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpro/webpro.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpro/webpro.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,16 +62,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/photo" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/photo" />
+      <recent name="$PROJECT_DIR$/video" />
+      <recent name="$PROJECT_DIR$/about" />
+      <recent name="$PROJECT_DIR$/webpro" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Illustrationen" />
       <recent name="$PROJECT_DIR$/photo" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/photo" />
-      <recent name="$PROJECT_DIR$/about" />
-      <recent name="$PROJECT_DIR$/webpro" />
-      <recent name="$PROJECT_DIR$/video" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -78,7 +101,8 @@
       <workItem from="1593340655161" duration="5476000" />
       <workItem from="1593353159666" duration="5583000" />
       <workItem from="1593453316793" duration="1320000" />
-      <workItem from="1593457333292" duration="3604000" />
+      <workItem from="1593457333292" duration="25021000" />
+      <workItem from="1593563185775" duration="1676000" />
     </task>
     <servers />
   </component>
@@ -93,14 +117,19 @@
       <screen x="0" y="23" width="3840" height="1577" />
     </state>
     <state x="696" y="279" key="#Deployment/0.23.3840.1577/1202.1623.1680.971@0.23.3840.1577" timestamp="1593457198389" />
+    <state x="1203" y="484" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593546776662">
+      <screen x="0" y="23" width="3840" height="1577" />
+    </state>
+    <state x="1203" y="484" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.3840.1577/1202.1623.1680.971@0.23.3840.1577" timestamp="1593546776662" />
     <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593343888493">
       <screen x="0" y="23" width="3840" height="1521" />
     </state>
     <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3840.1521/3840.573.1680.1027@0.23.3840.1521" timestamp="1593343888493" />
-    <state x="1229" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593267972475">
-      <screen x="0" y="23" width="3840" height="1521" />
+    <state x="1229" y="315" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593556029236">
+      <screen x="0" y="23" width="3840" height="1577" />
     </state>
     <state x="1229" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.3840.1521/3840.573.1680.1027@0.23.3840.1521" timestamp="1593267972475" />
+    <state x="1229" y="315" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.3840.1577/1202.1623.1680.1027@0.23.3840.1577" timestamp="1593556029236" />
     <state x="644" y="129" key="CommitChangelistDialog2" timestamp="1593457208901">
       <screen x="0" y="23" width="3840" height="1577" />
     </state>

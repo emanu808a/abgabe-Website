@@ -1,8 +1,28 @@
 .form-group{
     width: 500px;
     margin-left: 300px;
+    margin-top: 25px;
+}
+.einleitung{
+    margin-left: 300px;
 }
 #submit{
     margin-left: 300px;
 }
+label{
+    border-color: #17a2b8;
+}
 
+#submit{
+    margin: 15px 5px 15px 5px;
+    padding: 5px 15px 5px 15px;
+    border: solid #17a2b8;
+}
+#submit:hover{
+    margin: 15px 5px 15px 5px;
+    padding: 7px 17px 7px 17px;
+    border: solid #17a2b8;
+    background-color: #17a2b8;
+    border-radius: 2rem;
+    transition: background-color, border-radius, padding 0.5s ease-in-out;
+}

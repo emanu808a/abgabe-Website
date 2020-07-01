@@ -1,145 +1,179 @@
 <!doctype html>
 <html lang="de">
-<head>
-    <!--benötigtre meta daten--!>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--Stylesheets / Bootstrap --!>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="about/about.css">
-    <title>About me</title>
-</head>
-<body>
+    <head>
+        <!--benötigtre Meta Daten-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--Stylesheets / Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="master.css">
+        <link rel="stylesheet" href="about/about.css">
+        <link rel="shortcut icon" type="image/x-icon" href="about/media/favicon.png">
+        <title>About me</title>
+    </head>
+    <body>
+        <header>
+        </header>
 
-<div class="wrapper">
-    <nav id="sidebar">
-        <div class="sidebar-header">
-            <img  src="about/media/favicon.png" class="logo" alt="favicon_logo"
-            <h3>EMANUEL AMACHER</h3>
+        <main>
+            <div class="wrapper">
+                <!--Start Sidebar Navigation-->
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <img  src="about/media/favicon.png" class="logo" alt="favicon_logo">
+                        <h3 class="name">EMANUEL AMACHER</h3>
+                        <p class="med">Mediamatiker</p>
+                    </div>
 
-        </div>
+                    <ul class="list-unstyled components">
+                        <li class="active">
+                            <a href="index.html">About me</a>
+                        </li>
+                        <li>
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Photography</a>
+                            <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a href="photo/photo1.html">Project 1</a>
+                                </li>
+                                <li>
+                                    <a href="photo/photo2.html">Project 2</a>
+                                </li>
+                                <li>
+                                    <a href="photo/photo3.html">Project 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Videography</a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu">
+                                <li>
+                                    <a href="video/video.html">Project 1</a>
+                                </li>
+                                <li>
+                                    <a href="video/video2.html">Project 2</a>
+                                </li>
+                                <li>
+                                    <a href="video/video2.html">Project 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="illustrationen/illus.html">Illustrations</a>
+                        </li>
+                        <li>
+                            <a href="webpro/webpro.html">Web Project</a>
+                        </li>
+                        <li>
+                            <a href="contact/contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--Ende Sidebar Navigation-->
+                <div class="content">
+                    <nav class="navbar navbar-expand-lg navbar-lightt bg-light">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fa fa-align-justify"></i> <span>Menu</span>
+                        </button>
+                    </nav>
 
+                    <div class="profil">
+                        <img src="about/media/01profil.jpg" class="pb" alt="monelisa">
+                        <div class="progressbars">
+                            <h1>About Me</h1>
+                            <h3>Illustrations</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h3>Photography</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h3>Videography</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h3>Html</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h3>Css</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text">
 
-        <ul class="list-unstyled components">
-            <p class="med">Mediamatiker</p>
-            <li class="active">
-                <a href="#">About me</a>
-            </li>
-            <li>
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Photography</a>
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li>
-                        <a href="photo/photo1.html">Project 1</a>
-                    </li>
-                    <li>
-                        <a href="photo/photo2.html">Project 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Project 3</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Videography</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu">
-                    <li>
-                        <a href="video/video.html">Project 1</a>
-                    </li>
-                    <li>
-                        <a href="#">Project 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Project 3</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="illustrationen/illus.html">Illustrations</a>
-            </li>
-            <li>
-                <a href="#">Web Project</a>
-            </li>
-            <li>
-                <a href="contact/contact.html">Contact Me</a>
-            </li>
-        </ul>
+                        <h2>Meine Lebensgeschichte</h2>
+                        <p>Geboren bin ich im August 2002, im Zeichen des Löwen. Mit meinen Eltern und kleiner Schwester verbrachte ich, als ich knapp ein Jahr alt war, vier Monate im kalten Chicago. Ich mag mich an diese Zeit nicht mehr erinnern. Ein Jahr später hatte mein Vater die Chance in Cana-da zu arbeiten, deshalb zogen wir, als ich zweiein-halb Jahr alt war,
+                            für knapp vier Jahre nach Oakvil-le/Ontario. Ich besuchte dort den Kindergarten und die erste Klasse. Mit unse-rem Wohnwagen fuhren wir oft in Nationalparks, fuhren Kanu, fischten und genos-sen die gemeinsamen Momente in der weiten Natur. Zurück in der Schweiz wurde ich offiziell eingeschult und
+                            schloss neue Freundschaften. In der Oberstufe schnupperte ich kreative Berufe wie Hochbauzeichner und Konstrukteur. Doch es überzeugte mich
+                            nicht und so entschied ich mich ab der achten Klasse in die Kantonsschule Menzingen zu wechseln. Bald merkte ich aber, dass dieser Weg nicht zu mir passte. Nach meinen Bike Touren und den Gesprä-chen mit meinen Eltern entschloss ich mich, nach der obligaten Schulzeit die Kantonsschule
+                            Sommer 2018 zu beenden. Nun wusste ich, dass ich die Lehre zum Mediamati-ker machen wollte. Umwe-ge im Leben sind nicht immer schlecht. So habe ich herausgefunden, was mir wirklich wichtig ist. Meine Traumlehrstelle war bei der Swisscom und ich setze alles
+                            Lebensabschnitte
+                            daran, diese zu erhalten. Die Lehrstellen für Sommer 2018 waren alle bereits besetzt. Der Traum ging in Erfüllung und ich erhielt die Lehrstelle für Sommer 2019. Ich entschied mich für ein Zwischenjahr mit einem Praktikum bei Mont-essori Baar für sieben Monate und viereinhalb Monate auf der Ranch im Westen Canadas mit Kost und Logis (Workawayer). Diesen Sommer habe ich die Mediamatikerausbid-lung bei der Firma Swisscom in Zürich gestar-tet, zusammen mit weite-ren anderen Lernenden. Ich schaue gespannt auf die kommenden vier Jahre und freue mich auf viele neue Impulse, die mein Leben bereichern werden.  </p>
+                        <div class="line"></div>
 
-    </nav>
+                        <h2>Erfahrungen aus Canada</h2>
+                        <p>Mein Herz schlägt für dieses grosse und ab-wechslungsreiche Land. Vor der Lehre habe ich die Möglichkeit erhalten, vier Monate auf einer grossen Cattle Beef Ranch Nähe Kamloops B.C. zu verbrin-gen. Umgeben von lieben Menschen habe ich dort viele unbezahlbare Erfah-rungen gesammelt. Nie würde ich diese Zeit mis-sen wollen.
+                            Mit Chaps bekleidet, ste-hend in mitten hunderten Rindern durfte ich diese «branden», diese zu Pferd auf die Felder treiben, an Bull Auktionen teilnehmen, Rodeos besuchen, unend-lich weite Felder selbstän-dig mit grossen Maschinen bewirtschaften und Dump Truck fahren. Sie haben mir viel Vertrauen geschenkt. Ich durfte ihre Rinder auch alleine mit Pferd durchs Gewässer und zu einer anderen Ranch führen. Das Führen des eigenen Pfer-des war anfangs eine Herausforderung für mich. Es waren zum Teil echt wilde Pferde. All diese neuen Aufgaben haben mich erwachsener und stärker gemacht. Es gab durchaus auch weniger schöne Momente. Als wir vom Wolf gerissene Rinder und Schafe fanden. Umso schöner und bereichernder waren die Augenblicke als junge Rinder geboren wurden. Der Lauf der Natur. Die unendliche Freiheit durfte ich bei Ausflügen mit den Teena-gern der Gastfamilie erfah-ren. Kanu fahren weitab der Zivilisation und inmit-ten Bären-Territorium und grossartiger Landschaft. Meine Eltern haben mir für den 5-tägigen Outback-Trip das volle Vertrauen ge-schenkt, welcher ich zu-sammen mit dem anderen Workawayer unternommen habe. Geprägt hat mich auch der Ausflug mit dem Pickup nach Whistler, im Trunk Bike, Canoe und Zelt. Nebst den vielen Touristen und Schwarzbären sind mir viele junge Menschen aufgefallen, die in einen einfachen VW-Bus leben, im Sommer biken und im Winter skifahren. Sie ver-dienen ihren momentanen Lebensunterhalt als Guide oder Skilehrer oder Ver-käufer im Sportshop. Dies ist eine Zwischenstation ihres Lebens. Whistler ist ein Ort voller junger, akti-ver und abenteuerfreudiger Menschen, die das einfa-che Leben geniessen, bevor sie wieder etwas Neues starten. Vielleicht wäre dies auch etwas für mich, dieser Gedanke, lässt mich seit einiger Zeit nicht mehr los.</p>
 
-    <div class="content">
-        <nav class="navbar navbar-expand-lg navbar-lightt bg-light">
+                        <div class="line"></div>
 
-            <button type="button" id="sidebarCollapse" class="btn btn-info">
-                <i class="fa fa-align-justify"></i> <span>Menu</span>
-            </button>
-
-        </nav>
-        <div class="profil">
-            <img src="about/media/01profil.jpg" class="pb" alt="monelisa">
-            <div class="progressbars">
-                <h3>Illustrations</h3>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        <h2>Was nehme ich aus Canada mit?</h2>
+                        <p>Nebst dem Maple Sirup und ein paar Souvenirs habe ich vor allem unbezahlbare Erfahrungen, wunderbare Erlebnisse und die Er-kenntnis, dass es sich nicht nur in der Schweiz leben lässt, mit nach Hau-se genommen. Die Canadi-er sind sehr offene und gastfreundliche Menschen mit kaum Vorurteilen gegenüber anderen Kultu-ren. Leben und leben lassen ist das Motto. Ich versuche diese Art in mein Leben zu integrieren. Da können wir Schweizer definitiv etwas davon lernen.
+                            Ferner habe ich ein Gefühl von Freiheit erfahren, wie ich es hier in der Schweiz in dieser Form nicht erle-ben kann. Fern ab von Millionenstädten wie Toronto, Vancouver oder Calgary gibt es Landstri-che, welche unbewohnt und noch unberührt sind. Je weiter man reist, desto unendlicher erscheint einem die Landschaft. Meine Sehnsucht nach Natur, nach Abenteuer und unendlicher Freiheit sind geweckt worden. Sehn-süchte, welche in Canada gestillt werden können. Ich werde eines Tages wieder zurückkehren, in welcher Form auch immer. Dies steht noch in den</p>
+                    </div>
+                    <!-- Optional JavaScript -->
+                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+                    <script>
+                        $(document).ready(function(){
+                            $('#sidebarCollapse').on('click',function(){
+                                $('#sidebar').toggleClass('active');
+                            });
+                        });
+                    </script>
                 </div>
-                <h3>Photography</h3>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <h3>Videography</h3>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <h3>Html</h3>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <h3>Css</h3>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-
             </div>
-        </div>
-        <div class="text">
+        </main>
+        <!-- Footer -->
+        <footer class="page-footer font-small blue pt-4">
 
-            <h2>Collapsible Sidebar Using Bootstrap 4</h2>
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="col-md-3 mt-md-0 mt-3">
+                        <h5 class="text-uppercase">Contact me</h5>
+                        <p>Freue mich von Ihnen zu hören</p>
+                        <p class="footer-copyright text-center py-3"> © 2020 Copyright<p>
+                    </div>
 
-            <div class="line"></div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
 
-            <h2>Collapsible Sidebar Using Bootstrap 4</h2>
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">Meine Seiten</h5>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-            <h2>Collapsible Sidebar Using Bootstrap 4</h2>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-        </div>
-    </div>
-</div>
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function(){
-        $('#sidebarCollapse').on('click',function(){
-            $('#sidebar').toggleClass('active');
-        });
-    });
-</script>
-
-
-</body>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.html">About Me</a>
+                            </li>
+                            <li>
+                                <a href="photo/photo1.html">Photography</a>
+                            </li>
+                            <li>
+                                <a href="video/video.html">Videography</a>
+                            </li>
+                            <li>
+                                <a href="illustrationen/illus.html">Illustrations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

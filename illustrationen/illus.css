@@ -1,3 +1,16 @@
-.iframe, .img, h2{
+.svg, .img, h1 {
     margin: 0px 0px 50px 400px
+}
+.svg{
+    margin-bottom: 100px;
+}
+.img img{
+    width: 70%;
+    height: auto;
+}
+rect{
+    fill:red;
+    stroke:black;
+    stroke-width:5;
+    opacity:0.5"
 }

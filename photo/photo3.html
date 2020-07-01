@@ -7,11 +7,14 @@
         <!--Stylesheets / Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="../master.css">
-        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="photo3.css">
         <link rel="shortcut icon" type="image/x-icon" href="../about/media/favicon.png">
-        <title>Contact me</title>
+        <title>Photography</title>
     </head>
     <body>
+        <header>
+        </header>
+
         <main>
             <div class="wrapper">
                 <nav id="sidebar">
@@ -25,17 +28,17 @@
                         <li>
                             <a href="../index.html">About me</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Photography</a>
                             <ul class="collapse list-unstyled" id="homeSubmenu">
                                 <li>
-                                    <a href="../photo/photo1.html">Project 1</a>
+                                    <a href="photo1.html">Project 1</a>
                                 </li>
                                 <li>
-                                    <a href="../photo/photo2.html">Project 2</a>
+                                    <a href="photo2.html">Project 2</a>
                                 </li>
                                 <li>
-                                    <a href="../photo/photo3.html">Project 3</a>
+                                    <a href="photo3.html">Project 3</a>
                                 </li>
                             </ul>
                         </li>
@@ -59,8 +62,8 @@
                         <li>
                             <a href="../webpro/webpro.html">Web Project</a>
                         </li>
-                        <li class="active">
-                            <a href="contact.html">Contact Me</a>
+                        <li>
+                            <a href="../contact/contact.html">Contact Me</a>
                         </li>
                     </ul>
                 </nav>
@@ -71,67 +74,24 @@
                             <i class="fa fa-align-justify"></i> <span>Menü</span>
                         </button>
                     </nav>
-
-                    <div class="contact">
-
-                        <div class="einleitung">
-                            <h1>Contact me</h1>
-                            <p>Haben wir dein Intresse gewecht?<br/>Möchtest du mit uns Zusammenarbeiten und etwas creatives auf die Beine stellen?<br/> Wir freuen uns aud deine Kontaktaufnahme!</p>
-                        </div>
-
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlSelect1">Mit welchem Produkt haben wir dein Interesse geweckt?</label>
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>Photography</option>
-                                    <option>Videography</option>
-                                    <option>Illustrationen</option>
-                                    <option>Web Project</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlSelect2">Um was handelt deine  Anfrage?</label>
-                                <select multiple class="form-control" id="exampleFormControlSelect2">
-                                    <option>Frage</option>
-                                    <option>Offerte</option>
-                                    <option>Testomonials</option>
-                                    <option>Rechnung</option>
-                                    <option>Projekt</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                                    <label class="form-check-label" for="invalidCheck2">
-                                        <p>Agree to terms and conditions</p>
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <button id="submit" type="submit">Submit form</button>
-                            </div>
-                        </form>
-                        <!-- Optional JavaScript -->
-                        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-                        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-                        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-                        <script>
-                            $(document).ready(function(){
-                                $('#sidebarCollapse').on('click',function(){
-                                    $('#sidebar').toggleClass('active');
-                                });
-                            });
-                        </script>
+                    <div class="get-touch">
+                        <h2> Diese Seite ist in Bearbeitung!</h2>
+                        <p> Bei Fragen oder Unklarheiten, können sie mich kontaktieren.</p>
+                        <a href="../contact/contact.html"><button id="get-touch">Get in touch</button></a>
                     </div>
+                    <!-- Optional JavaScript -->
+                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+                    <!--JavaScript Sidebar -->
+                    <script>
+                        $(document).ready(function(){
+                            $('#sidebarCollapse').on('click',function(){
+                                $('#sidebar').toggleClass('active');
+                            });
+                        });
+                    </script>
                 </div>
             </div>
         </main>

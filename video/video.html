@@ -1,134 +1,153 @@
 <!doctype html>
 <html lang="de">
-<head>
-    <!--benötigtre meta daten--!>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--Stylesheets / Bootstrap --!>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../master.css">
-    <link rel="stylesheet" href="video.css">
-    <title>About me</title>
-</head>
-<body>
+    <head>
+        <!--benötigtre meta daten-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--Stylesheets / Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="../master.css">
+        <link rel="stylesheet" href="video.css">
+        <link rel="shortcut icon" type="image/x-icon" href="../about/media/favicon.png">
+        <title>Videography 1</title>
+    </head>
+    <body>
+        <header>
+        </header>
 
-<div class="wrapper">
-    <nav id="sidebar">
-        <div class="sidebar-header">
-            <img  src="../about/media/favicon.png" class="logo" alt="favicon_logo"
-            <h3>EMANUEL AMACHER</h3>
+        <main>
+            <div class="wrapper">
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <img  src="../about/media/favicon.png" class="logo" alt="favicon_logo">
+                        <h3 class="name">EMANUEL AMACHER</h3>
+                        <p class="med">Mediamatiker</p>
+                    </div>
 
-        </div>
+                    <ul class="list-unstyled components">
+                        <li>
+                            <a href="../index.html">About me</a>
+                        </li>
+                        <li>
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Photography</a>
+                            <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a href="../photo/photo1.html">Project 1</a>
+                                </li>
+                                <li>
+                                    <a href="../photo/photo2.html">Project 2</a>
+                                </li>
+                                <li>
+                                    <a href="../photo/photo3.html">Project 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="active">
+                            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Videography</a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu">
+                                <li>
+                                    <a href="../video/video.html">Project 1</a>
+                                </li>
+                                <li>
+                                    <a href="../video/video2.html">Project 2</a>
+                                </li>
+                                <li>
+                                    <a href="../video/video2.html">Project 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../illustrationen/illus.html">Illustrations</a>
+                        </li>
+                        <li>
+                            <a href="../webpro/webpro.html">Web Project</a>
+                        </li>
+                        <li>
+                            <a href="../contact/contact.html">Contact Me</a>
+                        </li>
+                    </ul>
 
+                </nav>
 
-        <ul class="list-unstyled components">
-            <p class="med">Mediamatiker</p>
-            <li class="active">
-                <a href="../index.html">About me</a>
-            </li>
-            <li>
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Photography</a>
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li>
-                        <a href="../photo/photo1.htmlh">Project 1</a>
-                    </li>
-                    <li>
-                        <a href="../photo/photo2.html">Project 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Project 3</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Videography</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu">
-                    <li>
-                        <a href="../video/video.html">Project 1</a>
-                    </li>
-                    <li>
-                        <a href="#">Project 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Project 3</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="../illustrationen/illus.html">Illustrations</a>
-            </li>
-            <li>
-                <a href="#">Web Project</a>
-            </li>
-            <li>
-                <a href="../contact/contact.html">Contact Me</a>
-            </li>
-        </ul>
+                <div class="content">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fa fa-align-justify"></i> <span>Menü</span>
+                        </button>
+                    </nav>
 
-    </nav>
-
-    <div class="content">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-            <button type="button" id="sidebarCollapse" class="btn btn-info">
-                <i class="fa fa-align-justify"></i> <span>toggle sidebar</span>
-            </button>
-        </nav>
-
-        <div class="video">
-            <video id="player">
-                <source src="media/video.mp4" type="video/mp4">
-                <source src="media/video.ogg" type="video/ogg">
-                Ihr Browser kann dieses Video nicht wiedergeben<br/>
-                Dieser Film Zeigt, wie eine Uhr repariert wird.
-            </video>
-                <div class="nav-vid">
-                <button id="play">Play</button>
-                <button id="pause">Pause</button>
-                <button id="duration">Länge anzeigen</button>
-                <p id="ausgabe"></p>
+                    <div class="video">
+                        <h1>Videography</h1>
+                        <video id="player">
+                            <source src="media/video.mp4" type="video/mp4">
+                            <source src="media/video.ogg" type="video/ogg">
+                            Ihr Browser kann dieses Video nicht wiedergeben<br/>
+                            Dieser Film Zeigt, wie eine Uhr repariert wird.
+                        </video>
+                            <div class="nav-vid">
+                            <button id="play">Play</button>
+                            <button id="pause">Pause</button>
+                            <button id="duration">Länge anzeigen</button>
+                            <p id="ausgabe"></p>
+                        </div>
+                    </div>
+                    <!--JavaScript Video Button -->
+                    <script>
+                        var song = document.getElementById('player');
+                        document.getElementById('play').addEventListener('click', function() { song.play(); }, false);
+                        document.getElementById('pause').addEventListener('click', function() { song.pause(); }, false);
+                        document.getElementById('duration').addEventListener('click', function() {
+                            document.getElementById('ausgabe').innerHTML = 'Die Dauer des Videos beträgt: '+ song.duration; +' Sekunden.'}, false);
+                    </script>
+                    <!-- Optional JavaScript -->
+                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+                    <!--JavaScript Sidebar -->
+                    <script>
+                        $(document).ready(function(){
+                            $('#sidebarCollapse').on('click',function(){
+                                $('#sidebar').toggleClass('active');
+                            });
+                        });
+                    </script>
+                </div>
             </div>
-        </div>
-        <div class="video">
-            <video id="player">
-                <source src="media/video.mp4" type="video/mp4">
-                <source src="media/video.ogg" type="video/ogg">
-                Ihr Browser kann dieses Video nicht wiedergeben<br/>
-                Dieser Film Zeigt, wie eine Uhr repariert wird.
-            </video>
-            <div class="nav-vid">
-                <button id="play">Play</button>
-                <button id="pause">Pause</button>
-                <button id="duration">Länge anzeigen</button>
-                <p id="ausgabe"></p>
+        </main>
+        <footer class="page-footer font-small blue pt-4">
+
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+
+                    <div class="col-md-3 mt-md-0 mt-3">
+                        <h5 class="text-uppercase">Contact me</h5>
+                        <p>Freue mich von Ihnen zu hören</p>
+                        <p class="footer-copyright text-center py-3"> © 2020 Copyright<p>
+                    </div>
+
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">Meine Seiten</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">About Me</a>
+                            </li>
+                            <li>
+                                <a href="../photo/photo1.html">Photography</a>
+                            </li>
+                            <li>
+                                <a href="../video/video.html">Videography</a>
+                            </li>
+                            <li>
+                                <a href="../illustrationen/illus.html">Illustrations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-
-            <script>
-                var song = document.getElementById('player');
-                document.getElementById('play').addEventListener('click', function() { song.play(); }, false);
-                document.getElementById('pause').addEventListener('click', function() { song.pause(); }, false);
-                document.getElementById('duration').addEventListener('click', function() {
-                    document.getElementById('ausgabe').innerHTML = 'Die Dauer des Videos beträgt: '+ song.duration; +' Sekunden.'}, false);
-            </script>
-
-
-    </div>
-</div>
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function(){
-        $('#sidebarCollapse').on('click',function(){
-            $('#sidebar').toggleClass('active');
-        });
-    });
-</script>
-
-
-</body>
+        </footer>
+    </body>
 </html>
